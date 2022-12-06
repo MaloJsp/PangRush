@@ -42,7 +42,7 @@ function virevoltant_tir() {
 }
 
 
-var game = new Phaser.Game(624, 368, Phaser.AUTO, 'content', {
+var game = new Phaser.Game(1024, 768, Phaser.AUTO, 'content', {
     preload: preload, create:
         create, update: update
 }); 
